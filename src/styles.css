@@ -1,0 +1,88 @@
+body {
+  background-image: url("../imgs/minimalist-leaf.png");
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px auto;
+  max-width: 600px;
+  background-color: #faf8f1;
+  color: #c58940;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.col-sm-1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+.temperature {
+  color: #c58940;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+ul {
+  list-style-type: none;
+  color: #c58940;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+a:hover {
+  color: grey;
+}
+
+h5 {
+  color: rgb(78, 78, 78);
+}
+
+.upcoming-weather {
+  text-align: center;
+}
+
+.dotw-emoji {
+  font-size: 50px;
+}
+
+.low-temp {
+  color: #e5ba73;
+}
+
+.btndotw {
+  background: none;
+  color: inherit;
+  border: white none;
+  border-radius: 5px;
+  padding: 10px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.btndotw:hover {
+  transition: all 200ms ease-in-out;
+  border: #c0bfbf solid 1px;
+}
