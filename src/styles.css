@@ -87,10 +87,12 @@ h5 {
   border: #c0bfbf solid 1px;
 }
 
-small {
-  margin-left: 50px;
+.small {
+  display: inline;
+  margin: auto;
 }
 .open-source {
+  text-align: center;
   font-weight: bold;
   color: rgba(116, 71, 19, 0.705);
 }
