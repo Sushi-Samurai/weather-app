@@ -86,3 +86,11 @@ h5 {
   transition: all 200ms ease-in-out;
   border: #c0bfbf solid 1px;
 }
+
+small {
+  margin-left: 50px;
+}
+.open-source {
+  font-weight: bold;
+  color: rgba(116, 71, 19, 0.705);
+}
