@@ -88,7 +88,7 @@ h5 {
 }
 
 .small {
-  display: inline;
+  display: block;
   margin: auto;
 }
 .open-source {
